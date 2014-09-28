@@ -225,7 +225,7 @@ textarea {
 
 #aboutme .content div, #projects .content div, #travel .content div {
 	background:rgba(255,255,255,0.5);
-	padding: 30px;
+	padding: 20px;
 	margin: 30px;
 	text-align: left;
 }
@@ -233,7 +233,7 @@ textarea {
 #aboutme .content div img {
 	float: left;	
 	opacity: .85;
-	padding: 0 10px 0 0;
+	padding: 0 30px 0 0;
 }
 
 #aboutme .content div p, #projects .content div p {
@@ -259,9 +259,15 @@ textarea {
 	
 }
 
-#projects .content div img, #projects .content div img {	
+#projects .content div img, #travel .content div img {	
 	opacity: .85;
-	padding: 0 0 0 0;
+	padding: 0 30px 0 0;
+	float: left;
+}
+
+#projects .content div p, #travel .content div p{
+	color: #39454b;
+	 
 }
 
 #travel {
@@ -279,6 +285,8 @@ textarea {
 	padding: 0 0 200px 0;	
 }
 
+
+
 #travel .content ul {	
 	padding-left: 50px;
 }
@@ -293,7 +301,10 @@ textarea {
 
 #travel .content ul li img{
 	opacity: .85;
+	float: left;
 }
+
+
 
 
 
