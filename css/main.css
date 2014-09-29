@@ -197,7 +197,7 @@ textarea {
 
 #intro .content {
 	
-	height: 5in;
+	height: 6in;
 	background:rgba(255,255,255,0.5);
 	
 }
@@ -271,7 +271,7 @@ textarea {
 }
 
 #travel {
-	background: url('../img/travel.jpg');
+	background: url('../img/travel1.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: bottom center;
