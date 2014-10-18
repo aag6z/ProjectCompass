@@ -150,7 +150,7 @@ textarea {
 	background:rgba(255,255,255,0.5);	
 }
 
-#intro .content h2, #travel .content h2, #aboutme .content h2, #projects .content h2 {	
+#intro .content h2, #travel .content h2, #aboutme .content h2, #projects .content h2, #books .content h2 {	
 	font-size: 4.25em;
 	line-height: 1em;
 	letter-spacing: -4px;
@@ -169,7 +169,7 @@ textarea {
 	color: #E8E8E8;	
 }
 
-#aboutme .content div, #projects .content div, #travel .content div {
+#aboutme .content div, #projects .content div, #travel .content div, #books .content div {
 	background:rgba(255,255,255,0.5);
 	padding: 20px;
 	margin: 30px;
@@ -225,7 +225,7 @@ textarea {
 	color: #E8E8E8;	
 }
 
-#travel .content, #aboutme .content, #projects .content {	
+#travel .content, #aboutme .content, #projects .content, #books .content {	
 	background:rgba(255,255,255,0.5);
 	padding: 0 0 200px 0;	
 }
@@ -264,6 +264,15 @@ textarea {
 	line-height: 1;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+
+#books {
+	background: url('../img/books.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	text-align: center;
 }
 
 
