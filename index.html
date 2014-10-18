@@ -11,40 +11,52 @@
 		<link rel="stylesheet" href="css/main.css">
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/bootstrap-social.css" rel="stylesheet">
-        <link href="css/font-awesome.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="css/normalize.css">
-        
-        
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <link href="css/font-awesome.min.css" rel="stylesheet">        
     </head>
+    
     <body id="body">
-        <!--[if lt IE 8]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-	<header id="header">
-       <nav id="nav">
-       	<ul>
-  			<li><a href="#">home</a></li>
-  			<li><a data-toggle="dropdown" data-target="#" href="#aboutme"> me <span class="caret"></span></a>
-  				<ul class="dropdown-menu" id="customdropdown">
-  					<li> <a href="#aboutme">aboutme</a></li>
-      				<li><a href="#">resume</a></li>
-    			</ul>
-  			</li>
-  			<li><a a data-toggle="dropdown" data-target="#" href="#projects">projects<span class="caret"></span></a>
-  				<ul class="dropdown-menu" id="customdropdown">
-  					<li><a data-target="#" href="#">videogame</a></li>
-      				<li><a href="#">randomizer</a></li>
-      				<li><a href="#">blahblah</a></li>
-    			</ul>
-  			</li>
-  			<li><a href="#travel">travel</a></li>
-  			<li><a href="#books">books</a></li>
-  			<li><a href="#articles">television</a></li>  			
-		</ul>       	       	
-       </nav>
+		<header id="header">
+			
+			<nav class="navbar navbar-default navbar-right" id="customnav" role="navigation">
+  <div class="container-fluid" id="customcont">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    
+     <div class="collapse navbar-collapse" id="mainmenu">
+      <ul class="nav navbar-nav">
+        <li><a href="#">home</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">me<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#aboutme">aboutme</a></li>
+            <li><a href="#">resume</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">projects<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#projects">videogame</a></li>
+            <li><a href="#">randomizer</a></li>
+            <li><a href="#">etcetcetc</a></li>
+          </ul>
+        </li>
+      	<li><a href="#travel">travel</a></li>
+      	<li><a href="#books">books</a></li>
+      	<li><a href="#television">television</a></li>
+      </ul>
+     
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
     </header>
-       
+      
     <section id="intro">    	
     	<div class="content">
 			<h2>welcome.</h2>	
@@ -63,8 +75,8 @@
        				that harness the ease and ubiquity of mobile devices to spread literacy and rights especially for women.<br><br>
        				
        				skills: c++, c#, .net, javascript, ruby, ruby on rails, css, python <br>
-       				resume: <a href="#">see here.</a><br>
-       				etc: <a href="#" class="icon fa-twitter"></a> <a href="#" class="icon fa-facebook"></a> 
+       				resume: <a href="Amruta Ghate_Resume.pdf">see here.</a><br>
+       				etc: <a href="https://twitter.com/affablea86" class="icon fa-twitter"></a> <a href="https://www.facebook.com/affableA" class="icon fa-facebook"></a> 
        			</p>
        				
        		</div>
@@ -82,11 +94,11 @@
        	</div>
     	      	
    	</section>
-       
+       <!-- include top 5 trips. for more see my travel blog (?) -->
        <section id="travel">
        	<div class="content">
-       		<h2>travel.</h2>
        	    <div>  	 		
+       		<h2>travel.</h2>
 				<img src="img/london.jpg" class="img-circle">
 				<p><em>london. summer 2005.</em></p>
 				<p> i have been pretty fortunate in my post-college years to have travelled extensively across the us and to different countries. the idea of travel and its implementation (after i made some
@@ -122,11 +134,11 @@
        		
        	</div>
        </section>
-       	      
+       <!-- 3 recently read. include link to book club (?) -->	      
        <section id="books">       	
        </section>
        
-       <section id="articles">       	    	
+       <section id="television">       	    	
        </section>
        
         
@@ -134,6 +146,7 @@
         <script src="js/main.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>    
     	<script src="js/bootstrap.min.js"></script>
+    	<script src="js/vendor/modernizr-2.8.3.min.js"></script>
     	<!-- 
     	
     	<script>$('.dropdown-toggle').dropdown()</script>
