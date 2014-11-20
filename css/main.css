@@ -169,6 +169,13 @@ textarea {
 	color: #E8E8E8;	
 }
 
+#map-canvas { 
+	height: 100%;
+	background: rgba(255,255,255,0); 
+	margin: 0; 
+	padding: 0;
+}
+
 #aboutme .content div, #projects .content div, #travel .content div, #books .content div {
 	background:rgba(255,255,255,0.5);
 	padding: 20px;
@@ -274,6 +281,23 @@ textarea {
 	background-repeat: no-repeat;
 	text-align: center;
 }
+
+#hack{
+	height: 500px;
+}
+#books .content blockquote {
+	float: left;
+	background-color: #FFFFFF;
+	/*background: url('../img/travel1.jpg');*/
+}
+#books .content blockquote p{
+	font-size: 16pt;
+	color: #39454b;
+	text-align: left;
+	width: 300px;
+	
+}
+
 
 
 
